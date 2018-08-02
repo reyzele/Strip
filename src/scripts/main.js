@@ -10,6 +10,7 @@ window.onload = function () {
   link.style.display = "flex";
 
   link.addEventListener('click', handler);
+  link.addEventListener('touchstart', handler);
 
 
   function handler(e) {
