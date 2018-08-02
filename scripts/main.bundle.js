@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar link = document.querySelector(\".prototype__link\");\n\nlink.style.display = \"none\";\n\nwindow.onload = function () {\n  var phoneDiv = document.querySelector('.prototype__img');\n  var proto = document.querySelector('.protoio-embed-prototype');\n\n  proto.style.display = 'none';\n  link.style.display = \"flex\";\n\n  link.addEventListener('click', handler);\n\n  function handler(e) {\n    e.preventDefault();\n\n    phoneDiv.style.backgroundImage = 'none';\n    phoneDiv.style.width = \"100%\";\n    link.style.display = 'none';\n    proto.style.display = 'block';\n  }\n};\n\n//# sourceURL=webpack:///./src/scripts/main.js?");
+eval("\n\nvar link = document.querySelector(\".prototype__link\");\n\nlink.style.display = \"none\";\n\nwindow.onload = function () {\n  var phoneDiv = document.querySelector('.prototype__img');\n  var proto = document.querySelector('.protoio-embed-prototype');\n\n  proto.style.display = 'none';\n  link.style.display = \"flex\";\n\n  link.addEventListener('click', handler);\n  link.addEventListener('touchstart', handler);\n\n  function handler(e) {\n    e.preventDefault();\n\n    phoneDiv.style.backgroundImage = 'none';\n    phoneDiv.style.width = \"100%\";\n    link.style.display = 'none';\n    proto.style.display = 'block';\n  }\n};\n\n//# sourceURL=webpack:///./src/scripts/main.js?");
 
 /***/ })
 
