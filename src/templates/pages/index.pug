@@ -1,0 +1,194 @@
+extends ../template
+
+block content
+  .wrapper
+    .gradient
+    header.header
+      .header__content
+        a(href="/").logo
+          img.logo__img.animated.flash(src="./images/logo.png", alt="logo")
+        p.header__desc Create and set-up <br>your studio lighting in a few taps
+        .header__pic
+          img.header__pic-img(src="./images/t-phone.png", alt="Phone")
+    main
+      section.intro
+        .container
+          .row
+            .col-10.mx-auto
+              article.intro__item
+                .row.px-0
+                  .col-12.col-sm-12.col-md-5.col-lg-4.col-xl-3.intro__text
+                    p.nums 1
+                    h3 be inspired
+                    p.intro__desc enjoy the best studio lighting schemes and  share yours
+                  .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-5.intro__img.mx-sm-auto.mx-md-0
+                    img(src="./images/t-phone2.png", alt="img")
+              article.intro__item
+                .row.px-0
+                  .col-12.col-sm-12.col-md-5.col-lg-3.intro__text
+                    p.nums 2
+                    h3 Get & Edit
+                    p.intro__desc ready-made studio lighting schemes
+                  .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-5.intro__img.mx-sm-auto.mx-md-0
+                    img(src="./images/t-phone3.png", alt="img")
+              article.intro__item
+                .row.px-0
+                  .col-12.col-sm-12.col-md-5.col-lg-4.col-xl-3.intro__text
+                    p.nums 3
+                    h3 create & save
+                    p.intro__desc your own lighting <br> schemes
+                  .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-5.intro__img.mx-sm-auto.mx-md-0
+                    img(src="./images/t-phone4.png", alt="img")
+      section.colors
+        .colors__dec
+          img(src="./images/logo-dec.png", alt="dec-pic")
+        .container
+          .row
+            .col-12.col-lg-6.mx-auto
+              h2.section__title 
+                span Colors
+            .colors__item-wrap
+              .row.px-0
+                .col-12.col-lg-9.mx-auto
+                  .row.px-auto
+                    article.col-12.col-md-6.colors__item.align-self-end
+                      p.colors__code #221f25
+                      .colors__img
+                    article.col-12.col-md-6.colors__item.align-self-end
+                      p.colors__code #2b2937
+                      .colors__img
+                    article.col-12.col-md-6.colors__item.align-self-end
+                      p.colors__code #7f57fb
+                      .colors__img
+                    article.col-12.col-md-6.colors__item.align-self-end
+                      p.colors__code #ffdf5e
+                      .colors__img
+      section.typography
+        div.container
+          div.row
+            header.col-12
+              h2.section__title
+                span Typography
+            div.col-12
+              p.typography__title Arimo
+              p.typography__alphabet a b c d e f g h i j k l m n <br> o p q r s t u V W X Y Z
+      section.icons
+        .icons__dec
+          img(src="./images/logo-dec.png", alt="dec")
+        .container
+          .row.justify-content-center
+            .col-12
+              h2.section__title
+                span Icons
+            .col-4.col-sm-6.col-md-3.col-lg-1.icons__pic
+              img.icons__img(src="./images/icons/icon1.png", alt="icon")
+            .col-4.col-sm-6.col-md-3.col-lg-1.icons__pic
+              img.icons__img(src="./images/icons/icon2.png", alt="icon")
+            .col-4.col-sm-6.col-md-3.col-lg-1.icons__pic
+              img.icons__img(src="./images/icons/icon3.png", alt="icon")
+            .col-4.col-sm-6.col-md-3.col-lg-1.icons__pic
+              img.icons__img(src="./images/icons/icon4.png", alt="icon")
+            .col-4.col-sm-6.col-md-3.col-lg-1.icons__pic
+              img.icons__img(src="./images/icons/icon5.png", alt="icon")
+            .col-4.col-sm-6.col-md-3.col-lg-1.icons__pic
+              img.icons__img(src="./images/icons/icon6.png", alt="icon")
+            .col-4.col-sm-6.col-md-3.col-lg-1.icons__pic
+              img.icons__img(src="./images/icons/icon7.png", alt="icon")
+            .col-4.col-sm-6.col-md-3.col-lg-1.icons__pic
+              img.icons__img(src="./images/icons/icon8.png", alt="icon")
+      section.three-ways
+        .three-ways__dec-small
+          img(src="./images/logo-dec.png", alt="logo-dec")
+        .three-ways__dec-big
+          img(src="./images/logo-dec.png", alt="logo-dec")
+        .container
+          .row
+            .col-12.col-lg-8.col-xl-6.mr-auto
+              h2.three-ways__title
+                span 3
+                span ways to create you project
+            article.col-12.three-ways__item.with-nums
+              img.three-ways__dec-img(src="./images/inch-colors.png", alt="dec")
+              .row.align-items-center
+                .col-12.col-md-4.px-md-0.three-ways__img
+                  img(src="./images/way-1.png", alt="")
+                .col-12.col-md-6.col-lg-6.col-xl-5.three-ways__text.nums
+                  p You can choose default lighting <br> sheme. All you have to do is to choose <br> appropriate settings for your studio project
+            article.col-12.three-ways__item
+              .row.px-0.align-items-center
+                .col-12.col-md-4.col-lg-4.col-xl-4.three-ways__text
+                  p And you will get a list of ready-made photo lighting schemes including a little description  and a number of pictures as an example
+                .col-12.col-sm-6.col-md-4.col-lg-4.three-ways__img
+                  img(src="./images/way-2-1.png", alt="")
+                .col-12.col-sm-6.col-md-4.col-lg-4.three-ways__img
+                  img(src="./images/way-2-2.png", alt="")
+            article.col-12.three-ways__item.with-nums
+              .row.px-0.align-items-center
+                .col-12.col-sm-6.col-md-4.col-lg-4.three-ways__img
+                  img(src="./images/way-3-1.png", alt="")
+                .col-12.col-sm-6.col-md-4.col-lg-4.three-ways__img
+                  img(src="./images/way-3-2.png", alt="")
+                .col-12.col-sm-12.col-md-4.col-lg-4.three-ways__text.nums
+                  p Get photo lighting scheme from image. Just load the image as an example of desirable type of studio lighting
+            article.col-12.three-ways__item
+              .row.px-0.align-items-center
+                .col-12.col-sm-6.col-md-4.col-lg-4.three-ways__img
+                  img(src="./images/way-3-3.png", alt="")
+                .col-12.col-sm-6.col-md-4.col-lg-4.three-ways__img
+                  img(src="./images/way-3-4.png", alt="")
+                .col-12.col-md-4.three-ways__text
+                  p And you will get a list of ready-made photo lighting schemes with a lighting just like on your uploading image
+            article.col-12.three-ways__item.with-nums
+              .row.px-0.align-items-center
+                .col-12.col-md-4.three-ways__text.nums
+                  p Build your photo lighting project with the settings that you want, add photos and save the scheme to save your time 
+                .col-12.col-sm-12.col-md-7.col-lg-7.three-ways__img
+                  img(src="./images/way-3.png", alt="")
+      section.how 
+        .how__dec-pic
+          img(src="./images/logo-dec.png", alt="logo-dec")
+        .container
+          .row
+            .col-12
+              .section__title
+                span How it works
+            .col-12.col-md-8.col-lg-5.mx-auto
+              p.how__text All you have to do is to buy a set of beacons and studio lighting with special sensors and the app will help you step-by-step to build the studio lighting according to the scheme you’ve chosen.
+            .w-100
+            .col-12.col-lg-8.mx-auto
+              img.how__img(src="./images/how_img.png", alt="img")
+      section.screens
+        .container-fluid
+          .row
+            .col-12.col-lg-10.ml-auto
+              h2.section__title
+                span Screens
+            .col-12
+              img.screens__img(src="./images/screens.png", alt="screens")
+      section.prototype
+        .container
+          .row
+            .col-12.col-lg-8.ml-auto
+              .section__title
+                span Demo
+              .prototype__img
+                a.prototype__link(href="/")
+                  span Click here
+                  img.prototype__logo(src="./images/logo_in_print.png", alt="Logo")
+                div(class="protoio-embed-prototype" data-code="7GHUQQ" data-show-sidebuttons="light" style="width: 100%; height: 800px;") 
+                script(async src="https://static.proto.io/api/widget-embed.js")
+        img.prototype__abs(src="./images/prototype_absolute.png", alt="prototype")
+      section.video
+        .container
+          .row
+            .col-12
+              h2.section__title
+                span Video
+            .col-12.video__wrap
+              video(controls="controls" poster="images/poster.png")
+                source(src="./video/movie.mov")
+    footer.footer
+      .footer__dec-pic
+        img(src="./images/logo-dec.png", alt="dec-picc")
+      p.author Marina Veksler
+      p.copyright Sapir Academic College 2018

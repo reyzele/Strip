@@ -1,0 +1,25 @@
+.how {
+  overflow: inherit;
+	padding-bottom: rem(100px);
+	padding-top: rem(100px);
+}
+
+.how__dec-pic {
+  width: 40%;
+  position: absolute;
+  right: -395px;
+  top: 40%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.how__text {
+  font-size: 16px;
+	margin-bottom: rem(75px);
+}
+
+.how__img {
+	max-width: 100%;
+}

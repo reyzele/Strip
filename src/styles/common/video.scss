@@ -1,0 +1,10 @@
+.video {
+	padding-top: rem(100px);
+	padding-bottom: rem(100px);
+}
+
+.video__wrap video{
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
